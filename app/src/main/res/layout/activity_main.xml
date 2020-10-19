@@ -13,24 +13,70 @@
         android:layout_height="300dp"
         android:src="@drawable/fotoku"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="24dp"
-        android:text="Nama : Febryan Alfaridzi"
-        android:textAlignment="center"
-        android:textSize="20sp" />
 
-    <TextView
+
+
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NIM : 1818057"
-        android:textAlignment="center"
-        android:textSize="20sp" />
+        android:paddingLeft="50px"
+        android:paddingTop="70px"
+        android:paddingBottom="70px"
+        android:background="@color/colorAccent">
 
-    <TextView
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:text="Nama : Febryan Alfaridzi"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NIM : 1818057"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kelas : B"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kelas : B"
-        android:textAlignment="center"
-        android:textSize="20sp" />
+        android:orientation="vertical"
+        android:paddingTop="100px"
+        android:paddingBottom="100px"
+        android:background="@color/colorpasir">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email : febryanalfaridzi@gmail.com"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="23sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Whatsapp : 089692923333"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="23sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instagram : @febryanalfaridzi"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="23sp" />
+    </LinearLayout>
 </LinearLayout>
